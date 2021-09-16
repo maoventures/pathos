@@ -42,7 +42,7 @@ export default function Roadmap(props) {
             </li>
             <hr />
               <li>
-                Preparing our pitch deck<br />(cos we're hungry)
+                Preparing our pitch deck<br />(cos we&apos;re hungry)
               </li>
               </ul>
           </div>
