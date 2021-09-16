@@ -10,25 +10,25 @@ export default function Contact() {
                   <input type="hidden" name="subject" value="New Submission from Web3Forms" />
                   <input type="hidden" name="redirect" value="https://web3forms.com/success" />
                   <input type="hidden" name="recaptcha_response" id="recaptchaResponse"/>
-                  <input type="checkbox" name="botcheck" id="" class="hidden" />
+                  <input type="checkbox" name="botcheck" id="" className="hidden" />
                     <p className="mb-8 text-2xl font-light text-center text-white">
                         Contact Us
                     </p>
                     <div className="mb-2">
                         <div className="relative ">
-                          <label htmlfor="name">Your Name
+                          <label htmlFor="name">Your Name
                             <input type="text" name="name" id="name" className="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-transparent border-gray-300 rounded-lg shadow-sm appearance-none focus:outline-none focus:border-transparent" placeholder="John Doe"/></label>
                             </div>
                         </div>
                     <div className="mb-2">
                         <div className="relative ">
-                          <label htmlfor="email">Your Email
+                          <label htmlFor="email">Your Email
                             <input type="email" name="email" id="form" className="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-transparent border-gray-300 rounded-lg shadow-sm appearance-none focus:outline-none focus:border-transparent" placeholder="john@acme.inc"/></label>
                             </div>
                         </div>
                         <div className="mb-2">
                             <div className="relative ">
-                              <label htmlfor="message">Your Message
+                              <label htmlFor="message">Your Message
                                 <textarea form="productform" name="message" id="message" className="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-transparent border-gray-300 rounded-lg shadow-sm appearance-none focus:outline-none focus:border-transparent" placeholder="Hi, I'd like to collaborate"/></label>
                                 </div>
                             </div>
